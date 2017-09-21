@@ -1,0 +1,8 @@
+version: '2'
+services:
+    hack:
+        image: ocasta/nginx-hhvm-wp:4.8.1 #hhvm 3.21.0
+        volumes:
+            - ./src:/src
+        command: bash -c "hhvm --version && hhvm /src/main.php"
+
