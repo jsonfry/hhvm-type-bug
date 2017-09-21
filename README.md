@@ -1,4 +1,4 @@
-# HHVM 3.20.1 Use of word 'Type' bug
+# HHVM 3.21.1 Use of word 'Type' bug
 
 To see it working correctly in hhvm 3.21.0 run:
 
